@@ -31,17 +31,6 @@ class ProductAction extends React.Component {
 		}
 	}
 
-	findIndexOf = (id, products) => {
-		let result = -1;
-		for (let i = 0; i < products.length; i++) {
-			if (products[i].id === id) {
-				result = i;
-				break;
-			}
-		}
-		return result;
-	}
-
 	render() {
 		if (this.state.redirectToProducts === true) {
 			return (<Redirect to="/products" />)
