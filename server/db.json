@@ -1,0 +1,16 @@
+{
+  "products": [
+    {
+      "id": 4,
+      "name": "samsung s7",
+      "price": "600",
+      "available": true
+    },
+    {
+      "id": 5,
+      "name": "asus",
+      "price": "300",
+      "available": false
+    }
+  ]
+}
